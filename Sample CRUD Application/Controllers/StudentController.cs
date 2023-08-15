@@ -76,7 +76,7 @@ namespace Sample_CRUD_Application.Controllers
                 }
             }
 
-            return new JsonResult("{status:100}");
+            return new JsonResult("Added Successfully");
         }
 
         [HttpPut]

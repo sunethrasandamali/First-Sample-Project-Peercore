@@ -1,0 +1,15 @@
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.DataService\bin\Debug\net7.0\Sample CRUD Application.DataService.deps.json
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.DataService\bin\Debug\net7.0\Sample CRUD Application.DataService.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.DataService\bin\Debug\net7.0\Sample CRUD Application.DataService.pdb
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.DataService\bin\Debug\net7.0\Sample CRUD Application.Model.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.DataService\bin\Debug\net7.0\Sample CRUD Application.Model.pdb
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.DataService\obj\Debug\net7.0\Sample CRUD Application.DataService.csproj.AssemblyReference.cache
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.DataService\obj\Debug\net7.0\Sample CRUD Application.DataService.GeneratedMSBuildEditorConfig.editorconfig
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.DataService\obj\Debug\net7.0\Sample CRUD Application.DataService.AssemblyInfoInputs.cache
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.DataService\obj\Debug\net7.0\Sample CRUD Application.DataService.AssemblyInfo.cs
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.DataService\obj\Debug\net7.0\Sample CRUD Application.DataService.csproj.CoreCompileInputs.cache
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.DataService\obj\Debug\net7.0\Sample CRUD Application.DataService.csproj.CopyComplete
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.DataService\obj\Debug\net7.0\Sample CRUD Application.DataService.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.DataService\obj\Debug\net7.0\refint\Sample CRUD Application.DataService.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.DataService\obj\Debug\net7.0\Sample CRUD Application.DataService.pdb
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.DataService\obj\Debug\net7.0\ref\Sample CRUD Application.DataService.dll

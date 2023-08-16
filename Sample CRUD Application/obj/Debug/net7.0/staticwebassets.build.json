@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "R2kl31KVfEqUfW7Z7aMMvvYWocpR4wFQid/IJlpgov4=",
-  "Source": "Sample CRUD Application",
-  "BasePath": "_content/Sample CRUD Application",
+  "Hash": "LnJLOmORpualPDUK36hZWVchiTnnpl20tRe6rdp8eR8=",
+  "Source": "Sample CRUD Application.WebAPI",
+  "BasePath": "_content/Sample CRUD Application.WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

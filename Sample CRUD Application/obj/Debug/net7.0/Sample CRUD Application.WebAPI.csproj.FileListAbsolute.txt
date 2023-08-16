@@ -1,0 +1,49 @@
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\appsettings.Development.json
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\appsettings.json
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\Sample CRUD Application.WebAPI.exe
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\Sample CRUD Application.WebAPI.deps.json
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\Sample CRUD Application.WebAPI.runtimeconfig.json
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\Sample CRUD Application.WebAPI.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\Sample CRUD Application.WebAPI.pdb
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\Microsoft.OpenApi.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\Newtonsoft.Json.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\System.Data.SqlClient.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\obj\Debug\net7.0\Sample CRUD Application.WebAPI.csproj.AssemblyReference.cache
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\obj\Debug\net7.0\Sample CRUD Application.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\obj\Debug\net7.0\Sample CRUD Application.WebAPI.AssemblyInfoInputs.cache
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\obj\Debug\net7.0\Sample CRUD Application.WebAPI.AssemblyInfo.cs
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\obj\Debug\net7.0\Sample CRUD Application.WebAPI.csproj.CoreCompileInputs.cache
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\obj\Debug\net7.0\Sample CRUD Application.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\obj\Debug\net7.0\Sample CRUD Application.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\obj\Debug\net7.0\staticwebassets\msbuild.Sample CRUD Application.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\obj\Debug\net7.0\staticwebassets\msbuild.build.Sample CRUD Application.WebAPI.props
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Sample CRUD Application.WebAPI.props
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Sample CRUD Application.WebAPI.props
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\obj\Debug\net7.0\staticwebassets.pack.json
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\obj\Debug\net7.0\staticwebassets.build.json
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\obj\Debug\net7.0\staticwebassets.development.json
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\obj\Debug\net7.0\scopedcss\bundle\Sample CRUD Application.WebAPI.styles.css
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\obj\Debug\net7.0\Sample CRUD Application.WebAPI.csproj.CopyComplete
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\obj\Debug\net7.0\Sample CRUD Application.WebAPI.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\obj\Debug\net7.0\refint\Sample CRUD Application.WebAPI.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\obj\Debug\net7.0\Sample CRUD Application.WebAPI.pdb
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\obj\Debug\net7.0\Sample CRUD Application.WebAPI.genruntimeconfig.cache
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\obj\Debug\net7.0\ref\Sample CRUD Application.WebAPI.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\Sample CRUD Application.AppService.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\Sample CRUD Application.DataService.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\Sample CRUD Application.Model.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\Sample CRUD Application.AppService.pdb
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\Sample CRUD Application.DataService.pdb
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application\bin\Debug\net7.0\Sample CRUD Application.Model.pdb

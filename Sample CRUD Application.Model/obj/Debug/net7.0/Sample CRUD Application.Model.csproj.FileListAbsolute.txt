@@ -1,0 +1,12 @@
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.Model\bin\Debug\net7.0\Sample CRUD Application.Model.deps.json
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.Model\bin\Debug\net7.0\Sample CRUD Application.Model.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.Model\bin\Debug\net7.0\Sample CRUD Application.Model.pdb
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.Model\obj\Debug\net7.0\Sample CRUD Application.Model.csproj.AssemblyReference.cache
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.Model\obj\Debug\net7.0\Sample CRUD Application.Model.GeneratedMSBuildEditorConfig.editorconfig
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.Model\obj\Debug\net7.0\Sample CRUD Application.Model.AssemblyInfoInputs.cache
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.Model\obj\Debug\net7.0\Sample CRUD Application.Model.AssemblyInfo.cs
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.Model\obj\Debug\net7.0\Sample CRUD Application.Model.csproj.CoreCompileInputs.cache
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.Model\obj\Debug\net7.0\Sample CRUD Application.Model.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.Model\obj\Debug\net7.0\refint\Sample CRUD Application.Model.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.Model\obj\Debug\net7.0\Sample CRUD Application.Model.pdb
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.Model\obj\Debug\net7.0\ref\Sample CRUD Application.Model.dll

@@ -1,0 +1,17 @@
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.AppService\bin\Debug\net7.0\Sample CRUD Application.AppService.deps.json
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.AppService\bin\Debug\net7.0\Sample CRUD Application.AppService.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.AppService\bin\Debug\net7.0\Sample CRUD Application.AppService.pdb
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.AppService\bin\Debug\net7.0\Sample CRUD Application.DataService.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.AppService\bin\Debug\net7.0\Sample CRUD Application.Model.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.AppService\bin\Debug\net7.0\Sample CRUD Application.DataService.pdb
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.AppService\bin\Debug\net7.0\Sample CRUD Application.Model.pdb
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.AppService\obj\Debug\net7.0\Sample CRUD Application.AppService.csproj.AssemblyReference.cache
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.AppService\obj\Debug\net7.0\Sample CRUD Application.AppService.GeneratedMSBuildEditorConfig.editorconfig
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.AppService\obj\Debug\net7.0\Sample CRUD Application.AppService.AssemblyInfoInputs.cache
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.AppService\obj\Debug\net7.0\Sample CRUD Application.AppService.AssemblyInfo.cs
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.AppService\obj\Debug\net7.0\Sample CRUD Application.AppService.csproj.CoreCompileInputs.cache
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.AppService\obj\Debug\net7.0\Sample CRUD Application.AppService.csproj.CopyComplete
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.AppService\obj\Debug\net7.0\Sample CRUD Application.AppService.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.AppService\obj\Debug\net7.0\refint\Sample CRUD Application.AppService.dll
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.AppService\obj\Debug\net7.0\Sample CRUD Application.AppService.pdb
+E:\Peercore\Projects\Sample CRUD Application\Sample CRUD Application.AppService\obj\Debug\net7.0\ref\Sample CRUD Application.AppService.dll

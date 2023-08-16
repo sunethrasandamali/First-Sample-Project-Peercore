@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Sample_CRUD_Application.AppService</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sample CRUD Application.DataService\Sample CRUD Application.DataService.csproj" />
+    <ProjectReference Include="..\Sample CRUD Application.Model\Sample CRUD Application.Model.csproj" />
+  </ItemGroup>
+
+</Project>

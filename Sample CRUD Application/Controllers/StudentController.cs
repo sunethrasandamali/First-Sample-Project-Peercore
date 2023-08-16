@@ -4,147 +4,49 @@ using System.Data.SqlClient;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Sample_CRUD_Application.Model;
+using Sample_CRUD_Application.ViewModel;
+using Sample_CRUD_Application.AppService;
 
-namespace Sample_CRUD_Application.Controllers
+namespace Sample_CRUD_Application.WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class StudentController : ControllerBase
     {
 
-        private readonly IConfiguration _configuration;
+        private readonly StudentService _studentService;
 
-        public StudentController(IConfiguration configuration)
+        public StudentController(StudentService studentService)
         {
-            _configuration = configuration;
+            _studentService = studentService;
         }
 
         [HttpGet]
-        public JsonResult Get()
+        public IActionResult GetAllStudents()
         {
-            string query = @"
-                            select StudentID,FirstName,LastName,ContactNo,Email,DOB from
-                            dbo.Students
-                            ";
-
-            DataTable table = new DataTable();
-            string sqlDataSource = _configuration.GetConnectionString("CrudAppDB");
-            SqlDataReader myReader;
-
-            using (SqlConnection myCon = new SqlConnection(sqlDataSource))
-            {
-                myCon.Open();
-                using (SqlCommand myCommand = new SqlCommand(query, myCon))
-                {
-                    myReader = myCommand.ExecuteReader();
-                    table.Load(myReader);
-                    myReader.Close();
-                    myCon.Close();
-                }
-            }
-
-            return new JsonResult(table);
+            var students = _studentService.GetAllStudents();
+            return Ok(students);
         }
-
 
         [HttpPost]
-        public JsonResult Post(Student student)
+        public IActionResult CreateStudent([FromBody] StudentDataModel student)
         {
-            string query = @"
-                           insert into dbo.Students
-                           values (@FirstName,@LastName,@ContactNo,@Email,@DOB)
-                            ";
-
-            DataTable table = new DataTable();
-            string sqlDataSource = _configuration.GetConnectionString("CrudAppDB");
-            SqlDataReader myReader;
-
-            using (SqlConnection myCon = new SqlConnection(sqlDataSource))
-            {
-                myCon.Open();
-                using (SqlCommand myCommand = new SqlCommand(query, myCon))
-                {
-                    myCommand.Parameters.AddWithValue("@FirstName", student.FirstName);
-                    myCommand.Parameters.AddWithValue("@LastName", student.LastName);
-                    myCommand.Parameters.AddWithValue("@ContactNo", student.ContactNo);
-                    myCommand.Parameters.AddWithValue("@Email", student.Email);
-                    myCommand.Parameters.AddWithValue("@DOB", student.DOB);
-                    myReader = myCommand.ExecuteReader();
-                    table.Load(myReader);
-                    myReader.Close();
-                    myCon.Close();
-                }
-            }
-
-            return new JsonResult("Added Successfully");
+            _studentService.CreateStudent(student);
+            return CreatedAtAction(nameof(GetAllStudents), new { id = student.StudentID }, student);
         }
 
-        [HttpPut]
-        public JsonResult Put(Student student)
+        [HttpPut("{id}")]
+        public IActionResult UpdateStudent(int studentid, [FromBody] StudentDataModel student)
         {
-            string query = @"
-                           update dbo.Students
-                           set FirstName= @FirstName, 
-                                LastName = @LastName, 
-                                ContactNo = @ContactNo, 
-                                Email = @Email, 
-                                DOB = @DOB
-                            where StudentID=@StudentID
-                            ";
-
-            DataTable table = new DataTable();
-            string sqlDataSource = _configuration.GetConnectionString("CrudAppDB");
-            SqlDataReader myReader;
-
-            using (SqlConnection myCon = new SqlConnection(sqlDataSource))
-            {
-                myCon.Open();
-                using (SqlCommand myCommand = new SqlCommand(query, myCon))
-                {
-                    myCommand.Parameters.AddWithValue("@StudentID", student.StudentID);
-                    myCommand.Parameters.AddWithValue("@FirstName", student.FirstName);
-                    myCommand.Parameters.AddWithValue("@LastName", student.LastName);
-                    myCommand.Parameters.AddWithValue("@ContactNo", student.ContactNo);
-                    myCommand.Parameters.AddWithValue("@Email", student.Email);
-                    myCommand.Parameters.AddWithValue("@DOB", student.DOB);
-                    myReader = myCommand.ExecuteReader();
-                    table.Load(myReader);
-                    myReader.Close();
-                    myCon.Close();
-                }
-            }
-
-            return new JsonResult("Updated Successfully");
+            _studentService.UpdateStudent(studentid, student);
+            return NoContent();
         }
-
 
         [HttpDelete("{id}")]
-        public JsonResult Delete(int id)
+        public IActionResult DeleteStudent(int studentid)
         {
-            string query = @"
-                           delete from dbo.Students
-                            where StudentID=@StudentID
-                            ";
-
-            DataTable table = new DataTable();
-            string sqlDataSource = _configuration.GetConnectionString("CrudAppDB");
-            SqlDataReader myReader;
-
-            using (SqlConnection myCon = new SqlConnection(sqlDataSource))
-            {
-                myCon.Open();
-                using (SqlCommand myCommand = new SqlCommand(query, myCon))
-                {
-                    myCommand.Parameters.AddWithValue("@StudentID", id);
-
-                    myReader = myCommand.ExecuteReader();
-                    table.Load(myReader);
-                    myReader.Close();
-                    myCon.Close();
-                }
-            }
-
-            return new JsonResult("Deleted Successfully");
+            _studentService.DeleteStudent(studentid);
+            return NoContent();
         }
 
     }

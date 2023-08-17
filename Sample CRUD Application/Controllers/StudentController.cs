@@ -4,7 +4,7 @@ using System.Data.SqlClient;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Sample_CRUD_Application.Model;
-using Sample_CRUD_Application.ViewModel;
+//using Sample_CRUD_Application.ViewModel;
 using Sample_CRUD_Application.AppService;
 
 namespace Sample_CRUD_Application.WebAPI.Controllers

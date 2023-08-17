@@ -23,13 +23,13 @@ namespace Sample_CRUD_Application.DataService.Repository
             using (SqlConnection connection = _dataAccess.GetDBConnection())
             {
                 connection.Open();
-                string query = "select StudentID,FirstName,LastName,ContactNo,Email,DOB from dbo.Students";  
 
-                using (SqlCommand command = new SqlCommand(query, connection))
+                using (SqlCommand command = new SqlCommand("GetAllStudent", connection))
                 {
+                    command.CommandType = CommandType.StoredProcedure;
+
                     using (SqlDataReader reader = command.ExecuteReader())
                     {
-                   
                         while (reader.Read())
                         {
                             StudentDataModel student = new StudentDataModel
@@ -40,13 +40,13 @@ namespace Sample_CRUD_Application.DataService.Repository
                                 ContactNo = reader["ContactNo"].ToString(),
                                 Email = reader["Email"].ToString(),
                                 DOB = Convert.ToDateTime(reader["DOB"])
-                                
                             };
 
                             students.Add(student);
                         }
                     }
                 }
+
             }
 
             return students;
